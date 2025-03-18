@@ -1,6 +1,6 @@
 # Site
 title: Natalie Gibson
-bio: "Minimal, one column jekyll theme."
+bio: "Master's in Particle Physics and Astrophysical Sciences, specialising in quantum physics, data analysis, and cosmology"
 description: "Moonrise is a fresh take on the classic Moon"
 reading_time: true
 words_per_minute: 200
@@ -37,19 +37,19 @@ sass:
 #ad-slot:
 #bing-verify:
 #email:
-twitter: username
-facebook: username
+#twitter: username
+#facebook: username
 github-url: username
 #stackoverflow: 123456/username   from a "http://stackoverflow.com/users/123456/username" link
-#linkedin: username
+linkedin: username
 #xing: username
-instagram: username
+#instagram: username
 #lastfm: username
 #tumblr: username
 #medium: '@username'
 #pinterest: username
 #foursquare: username
-steam: username
+#steam: username
 #dribbble: username
 #youtube: username
 #youtube-channel: channel
