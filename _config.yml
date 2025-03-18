@@ -4,7 +4,7 @@ bio: "Master's in Particle Physics and Astrophysical Sciences, specialising in q
 description: "Moonrise is a fresh take on the classic Moon"
 reading_time: true
 words_per_minute: 200
-logo: "assets/img/logo.png"
+logo: "assets/img/dark-bramble.svg"
 background: "assets/img/outer_wilds_logo.jpg"
 tiled_bg: false # Set this true if you want to tile your background image, otherwise it will be covered
 locale: en_US
