@@ -5,7 +5,7 @@ description: "Moonrise is a fresh take on the classic Moon"
 reading_time: true
 words_per_minute: 200
 logo: "assets/img/dark-bramble.svg"
-background: "assets/img/outer_wilds_logo.jpg"
+background: "assets/img/binarykisu.jpeg"
 tiled_bg: false # Set this true if you want to tile your background image, otherwise it will be covered
 locale: en_US
 url: https://binarykisu.github.io
