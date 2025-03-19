@@ -22,15 +22,19 @@ layout: compress
                     </a>
                 </div>
                 <div class="post-list">
-                    {% for project in site.projects %}
-                    <ul>
-                        <li class="wow fadeInLeft" data-wow-duration="1.5s">
-                            <a class="zoombtn" href="{{ site.url }}{{ project.url }}">{{ project.title }}</a>
-                            <p>{{ project.excerpt }}</p>
-                            <a href="{{ site.url }}{{ project.url }}" class="btn zoombtn">Read More</a>
-                        </li>
-                    </ul>
-                    {% endfor %}
+                    {% if site.projects.size > 0 %}
+                        {% for project in site.projects %}
+                            <ul>
+                                <li class="wow fadeInLeft" data-wow-duration="1.5s">
+                                    <a class="zoombtn" href="{{ site.url }}{{ project.url }}">{{ project.title }}</a>
+                                    <p>{{ project.excerpt }}</p>
+                                    <a href="{{ site.url }}{{ project.url }}" class="btn zoombtn">Read More</a>
+                                </li>
+                            </ul>
+                        {% endfor %}
+                    {% else %}
+                        <p>No projects found.</p>
+                    {% endif %}
                 </div>
             </div>
         </div>
