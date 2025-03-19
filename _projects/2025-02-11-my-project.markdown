@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "My First Project"
-date: 2024-02-11
+date: 2025-02-11
 excerpt: "A brief description of my first project."
 tags: [project, example, web development]
 comments: false
