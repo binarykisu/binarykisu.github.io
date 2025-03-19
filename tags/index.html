@@ -7,6 +7,7 @@ comments: false
 
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor
 %}{% endcapture %}
+{% for tag in site.projects %}{% if tag.tags %}{{ tag.tags | join: ',' }}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}
 {% assign tags_list = site_tags | split:',' | sort %}
 
 <ul class="entry-meta inline-list">
@@ -25,6 +26,14 @@ comments: false
     {% for post in site.tags[this_word] %}{% if post.title != null %}
     <li class="entry-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
     {% endif %}{% endfor %}
+    <!-- Projects with this tag -->
+    {% for project in site.projects %}
+        {% if project.tags contains this_word %}
+          <li class="entry-title">
+            <a href="{{ site.url }}{{ project.url }}" title="{{ project.title }}">{{ project.title }}</a>
+          </li>
+        {% endif %}
+    {% endfor %}
   </ul>
 </article><!-- /.hentry -->
 {% endunless %}{% endfor %}
