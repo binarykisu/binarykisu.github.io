@@ -1,8 +1,8 @@
 ---
 layout: project
 title: "My Second Project"
-date: 2024-02-11
-excerpt: "A brief description of my first project."
+date: 2025-02-12
+excerpt: "A brief description of my second project."
 tags: [project, example, web development]
 feature: /assets/img/project-feature.png
 comments: false
