@@ -59,6 +59,7 @@ $$
 
 
 Maximum likelihood method for binned data: 
+
 $$
 \ln{L}(\nu_0, k) = \sum_{i=1}^{N=4} (n_i \ln{\nu_i} - \nu_i)
 $$
