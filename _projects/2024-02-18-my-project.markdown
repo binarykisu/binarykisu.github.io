@@ -10,9 +10,9 @@ comments: false
 ## Introduction
 
 The Breit-Wigner (BW) distribution describes the energy distribution of an unstable quantum state, 
-```math
+$$
 \frac{dN}{dE} \propto \frac{(\Gamma_s)^2}{(E - E_s)^2 + (\Gamma_s/ 2)^2},
-``` 
+$$
 where $E_s$ and $\Gamma_s$ are the mean energy and uncertainty on the mean energy of the state. $\Gamma_s$ is inversely proportional to the lifetime of the state.
 
 ## Generating the BW distribution
@@ -22,9 +22,9 @@ The BW distribution function is of interest because it can be found by taking th
 This is done by using a function such as $E(r)$, which gives the desired p.d.f. $f(E)$ can be evaluated using $r$ values that are uniformly distributed between $0$ and $1$. The probability to obtain a value of $r$ in $[r, r + dr]$ is given by $g(r)dr$. This is equivalent to the probability to obtain the energy, $E$ in $[E(r), E(r) + dE(r)]$, which is $f(E)$. This can be obtained by finding $E(r)$ and, therefore, the cumulative distribution function $F(E(r))$. 
 
 Solving for $E(r)$,
-```math
+$$
 E(r) = \frac{\Gamma_s}{2} \tan{((r-1/2)\pi)} + E_s.
-```
+$$
 
 This gives values of energy distributed like the Breit-Wigner distribution for when $r=[0,1]$.
 
@@ -34,7 +34,7 @@ This goal for this program is to first generate random numbers according to a BW
 
 ## Results
 
-![BW distribution](https://github.com/binarykisu/university_assignments/blob/main/statistical_methods_projects/breit-wigner_distribution/bw_dist.png)
+![BW distribution](https://raw.githubusercontent.com/binarykisu/university_assignments/blob/main/statistical_methods_projects/breit-wigner_distribution/bw_dist.png)
 
 Pretty cool, right?
 
