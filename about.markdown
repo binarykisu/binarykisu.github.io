@@ -9,11 +9,15 @@ comments: false
 <center>Hey there! I am an easygoing person with an enormous love for science and research. I graduated with my Master's degree from the University of Helsinki, with my work focusing on theoretical quantum physics, statistical methods, and astrophysics. Since graduating, I worked as an IT Consultant trainee, where I focused on data engineering (Azure), data analysis (Python, MATLAB, Tableau), and machine learning (PyTorch, Tensorflow). I am passionate about studying theoretical physics and making innovative, sustainable technological advancements in areas like quantum computing, data engineering and analysis, and AI. It is important to understand and be involved in the advancement of science and technology so that it can progress responsibly and help to pave a better future for the planet we're living on.</center>
 
 
+
+
 {% capture images %}
-https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
+{{ site.url }}/assets/img/aurora.png
+{{ site.url }}/assets/img/nature.png
 {% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
+{% include gallery images=images caption="Enjoying Finnish nature." cols=2 %}
+
+In my free time I enjoy taking walks and exploring what nature has to offer. I also spend a lot of time studying, hanging out with friends and family, playing video games, and sauna-ing (thanks Finland). :smile:
 
 
 ## On this website
