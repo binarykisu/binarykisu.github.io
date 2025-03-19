@@ -17,7 +17,7 @@ comments: false
 {% endcapture %}
 {% include gallery images=images caption="Enjoying Finnish nature." cols=2 %}
 
-In my free time I enjoy taking walks and exploring what nature has to offer. I also spend a lot of time studying, hanging out with friends and family, playing video games, and sauna-ing (thanks Finland). :smile:
+In my free time I enjoy taking walks and exploring what nature has to offer. I also spend a lot of time studying, hanging out with friends and family, playing video games, and sauna-ing (thanks Finland). &#x1F604;
 
 
 ## On this website
