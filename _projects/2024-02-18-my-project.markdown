@@ -3,7 +3,7 @@ layout: project
 title: "University Project: Inverse transform and Breit-Wigner"
 date: 2024-02-18
 excerpt: "This project is about the Inverse transform and Breit-Wigner distribution. It was completed during a Statistical Methods course."
-tags: [project, university, statistics, breit-wigner, data analysis]
+tags: [project, university, statistics, breit-wigner, data-analysis]
 feature: http://i.imgur.com/Ds6S7lJ.png
 comments: false
 ---
