@@ -4,6 +4,7 @@ title: "University Project #1"
 date: 2024-02-18
 excerpt: "This project is about the Inverse transform and Breit-Wigner distribution. It was completed during a Statistical Methods course."
 tags: [university, statistics, breit-wigner]
+feature: http://i.imgur.com/Ds6S7lJ.png
 comments: false
 ---
 
