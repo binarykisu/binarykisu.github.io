@@ -1,10 +1,10 @@
 # Site
 title: Natalie Gibson
-bio: "Master's in Particle Physics and Astrophysical Sciences, specialising in quantum physics, data analysis, and cosmology"
+bio: "Master's in Particle Physics and Astrophysical Sciences<br>specialising in quantum physics, data analysis, and cosmology"
 description: "Moonrise is a fresh take on the classic Moon"
 reading_time: true
 words_per_minute: 200
-logo: "assets/img/logo.png"
+logo: "assets/img/giants-deep.svg"
 background: "assets/img/binarykisu.jpeg"
 tiled_bg: false # Set this true if you want to tile your background image, otherwise it will be covered
 locale: en_US
