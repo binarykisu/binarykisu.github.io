@@ -3,7 +3,7 @@ layout: project
 title: "University Project: Maximum likelihood"
 date: 2024-02-19
 excerpt: "This project is about using the Maximum likelihood function with binned data."
-tags: [project, university, statistics, maximum likelihood, data analysis]
+tags: [project, university, statistics, maximum-likelihood, data-analysis]
 feature: /assets/img/project-feature.png
 comments: false
 ---
