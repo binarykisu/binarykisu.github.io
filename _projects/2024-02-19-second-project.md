@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "University Project #2"
+title: "University Project: Maximum likelihood"
 date: 2024-02-19
 excerpt: "This project is about using the Maximum likelihood function with binned data."
 tags: [project, university, statistics, maximum likelihood, data analysis]
@@ -88,9 +88,9 @@ _Note: Remember that all units need to be converted into SI units and the densit
 
 The figures below will hopefully provide some much-needed visual aid.
 
-![Figure one: parameter estimation](https://raw.githubusercontent.com/binarykisu/university_assignments/blob/main/statistical_methods_projects/maximum_likelihood/Figure_1.png)
+![Figure 1: parameter estimation](https://github.com/binarykisu/university_projects/blob/main/statistical_methods_projects/maximum_likelihood/Figure_1.png?raw=true)
 
-![Figure 2: Parameter estimation including confidence of 1 standard deviation](https://raw.githubusercontent.com/binarykisu/university_assignments/blob/main/statistical_methods_projects/maximum_likelihood/Figure_2.png)
+![Figure 2: parameter estimation including confidence of one standard deviation](https://github.com/binarykisu/university_projects/blob/main/statistical_methods_projects/maximum_likelihood/Figure_2.png?raw=true)
 
 I hope you enjoyed this project! The code can be found on my [GitHub](https://github.com/binarykisu/university_projects/tree/main/statistical_methods_projects/maximum_likelihood) if you are interested.
 
