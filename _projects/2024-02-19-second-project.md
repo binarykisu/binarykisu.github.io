@@ -51,9 +51,18 @@ Gravitational potential energy of a spherical cluster of mastic molecules in wat
 - Probability for cluster to be in energy state, $E \propto e^{-E/kT}$
   - $k$ is the Boltzmann constant and $T= 293 K$ is the absolute temperature
 
-Observed number $n$ at height $z$: $$\nu(z) = \nu_0 e^{-4 \pi r^3 \Delta \rho g z / 3 k T}, \text{where } \nu_0 = \nu (z=0)$$
+Observed number $n$ at height $z$: 
 
-Maximum likelihood method for binned data: $$\ln{L}(\nu_0, k) = \sum_{i=1}^{N=4} (n_i \ln{\nu_i} - \nu_i)$$
+$$
+\nu(z) = \nu_0 e^{-4 \pi r^3 \Delta \rho g z / 3 k T}, \text{where } \nu_0 = \nu (z=0)
+$$
+
+
+Maximum likelihood method for binned data: 
+$$
+\ln{L}(\nu_0, k) = \sum_{i=1}^{N=4} (n_i \ln{\nu_i} - \nu_i)
+$$
+
 
 Avogadro's number can then be found using the relation: $N_A = R/k$ 
 
@@ -79,10 +88,10 @@ _Note: Remember that all units need to be converted into SI units and the densit
 
 The figures below will hopefully provide some much-needed visual aid.
 
-![Figure one: parameter estimation](https://github.com/binarykisu/university_assignments/blob/main/statistical_methods_projects/maximum_likelihood/Figure_1.png)
+![Figure one: parameter estimation](https://raw.githubusercontent.com/binarykisu/university_assignments/blob/main/statistical_methods_projects/maximum_likelihood/Figure_1.png)
 
-![Figure 2: Parameter estimation including confidence of 1 standard deviation](https://github.com/binarykisu/university_assignments/blob/main/statistical_methods_projects/maximum_likelihood/Figure_2.png)
+![Figure 2: Parameter estimation including confidence of 1 standard deviation](https://raw.githubusercontent.com/binarykisu/university_assignments/blob/main/statistical_methods_projects/maximum_likelihood/Figure_2.png)
 
-I hope you enjoyed this project!
+I hope you enjoyed this project! The code can be found on my [GitHub](https://github.com/binarykisu/university_projects/tree/main/statistical_methods_projects/maximum_likelihood) if you are interested.
 
 
