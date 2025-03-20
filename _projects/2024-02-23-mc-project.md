@@ -3,7 +3,7 @@ layout: project
 title: "University Project: Random Number Generating approaches to Monte Carlo methods"
 date: 2024-02-23
 excerpt: "This project combines the von Neumann rejection method with the inversion method to improve upon it."
-tags: [project, university, statistics, monte-carlo, data-analysis]
+tags: [project, university, statistics, monte-carlo, data-analysis,]
 feature: /assets/img/project-feature.png
 comments: false
 ---
