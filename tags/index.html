@@ -5,19 +5,23 @@ description: "An archive of posts and projects sorted by tag."
 comments: false
 ---
 
-{% capture site_tags %}
-  {% for tag in site.tags %}{{ tag | first | strip }}{% unless forloop.last %},{% endunless %}{% endfor %}
-  {% for project in site.projects %}
-    {% if project.tags %}
-      {% for tag in project.tags %}{{ tag | strip }}{% unless forloop.last %},{% endunless %}{% endfor %}
-    {% endif %}
-  {% endfor %}
-{% endcapture %}
-{% assign tags_list = site_tags | split:',' | uniq | sort %}
+<!-- Collect all tags from posts and projects -->
+{% assign all_tags = "" | split: "," %}
+{% for tag in site.tags %}
+  {% assign all_tags = all_tags | push: tag[0] %}
+{% endfor %}
+{% for project in site.projects %}
+  {% if project.tags %}
+    {% for tag in project.tags %}
+      {% assign all_tags = all_tags | push: tag %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+{% assign all_tags = all_tags | uniq | sort %}
 
 <!-- Display all tags with counts -->
 <ul class="entry-meta inline-list">
-  {% for tag_name in tags_list %}
+  {% for tag_name in all_tags %}
     {% assign tag_posts = site.tags[tag_name] | default: "" | size %}
     {% assign tag_projects = site.projects | where_exp: "project", "project.tags contains tag_name" | size %}
     {% assign tag_count = tag_posts | plus: tag_projects %}
@@ -31,7 +35,7 @@ comments: false
 </ul>
 
 <!-- Display posts and projects under each tag -->
-{% for tag_name in tags_list %}
+{% for tag_name in all_tags %}
   <article>
     <h2 id="{{ tag_name | slugify }}" class="tag-heading">{{ tag_name }}</h2>
     <ul>
@@ -54,7 +58,6 @@ comments: false
     </ul>
   </article><!-- /.hentry -->
 {% endfor %}
-
 
 <pre>{{ site_tags }}</pre>
 
