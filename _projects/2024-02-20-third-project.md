@@ -3,7 +3,7 @@ layout: project
 title: "University Project: Pearson's chi-square test"
 date: 2024-02-20
 excerpt: "This project tests whether two distributions are compatible with each other."
-tags: [project, university, statistics, chi-square, data-analysis]
+tags: [project, university, statistics, chi-square, data-analysis,]
 feature: /assets/img/project-feature.png
 comments: false
 ---
