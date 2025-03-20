@@ -6,10 +6,10 @@ comments: false
 ---
 
 {% capture site_tags %}
-  {% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}
+  {% for tag in site.tags %}{{ tag | first | strip }}{% unless forloop.last %},{% endunless %}{% endfor %}
   {% for project in site.projects %}
     {% if project.tags %}
-      {% for tag in project.tags %}{{ tag }}{% unless forloop.last %},{% endunless %}{% endfor %}
+      {% for tag in project.tags %}{{ tag | strip }}{% unless forloop.last %},{% endunless %}{% endfor %}
     {% endif %}
   {% endfor %}
 {% endcapture %}
@@ -54,3 +54,6 @@ comments: false
     </ul>
   </article><!-- /.hentry -->
 {% endfor %}
+
+
+<pre>{{ site_tags }}</pre>
