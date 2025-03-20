@@ -17,14 +17,14 @@ What is a self-organized critical phenomenon, you might ask?
 
 It can generally be explained as a large-scale or complex event which seems to occur very rarely/randomly (i.e. earthquakes, avalanches, forest fires, etc.).
 - Some of these can indeed occur randomly, but they could also be triggered by self-organized ciriticality.
-- A system is considered to be critical if the number of events, $N(s), follows a power law: $N(s) \propto s^{- \alpha}$
+- A system is considered to be critical if the number of events, $N(s)$, follows a power law: $N(s) \propto s^{- \alpha}$
 
 ## Goal 
 
 The goal for this project is to create an algorithm that considers grains of sand falling on a flat square with open edges.
 - The first grains of sand land and remain at their positions. But what happens as the grains start to pile on top of one another?
    - Steep, unstable slopes will collapse in small "sand avalanches"!
-- The avalanches stabilize the sand, and it will eventually reach a steady-state shape (a pile with exactly a $45\degree$ angle) close to that of a cone.
+- The avalanches stabilize the sand, and it will eventually reach a steady-state shape (a pile with exactly a 45° angle) close to that of a cone.
    - This system is critical because, one the steady-state is reached, there will be avalanches of all sizes (even as big as the system itseslf)!
    - The system is also self-organized, because nothing (such as temperature or pressure) is needed to make the system enter its steady-state configuration.
 
